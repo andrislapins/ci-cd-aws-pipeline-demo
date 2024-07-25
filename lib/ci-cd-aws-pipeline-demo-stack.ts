@@ -14,7 +14,7 @@ export class CiCdAwsPipelineDemoStack extends cdk.Stack {
         commands: [
           'npm ci',
           'npm run build',
-          'npm cdk synth'
+          'npm run cdk synth'
         ]
       })
     })
