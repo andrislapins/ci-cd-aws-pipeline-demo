@@ -8,7 +8,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk synth"
+    "cdk": "cdk synthesize"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
